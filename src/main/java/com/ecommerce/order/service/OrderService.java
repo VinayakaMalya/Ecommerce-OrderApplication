@@ -9,4 +9,6 @@ public interface OrderService
 	Optional<Order> findOrderById(long orderId);
 
 	Order createOrder(Order order);
+
+	Order cancelOrder(long orderId);
 }
